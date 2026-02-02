@@ -1,0 +1,19 @@
+{
+  "last_updated": "2026-01-26T17:59:24.412034",
+  "total_analyses": 1,
+  "analyses": {
+    "interest_rates_20260126": {
+      "rate_differentials": {
+        "fed_vs_jpy": 0,
+        "fed_vs_cny": 0,
+        "fed_vs_eur": 0
+      },
+      "carry_trades": {
+        "jpy_long": "Carry JPY/USD (Pay 0.00%)"
+      },
+      "monetary_stance": {
+        "fed": "Loose (Dovish)"
+      }
+    }
+  }
+}

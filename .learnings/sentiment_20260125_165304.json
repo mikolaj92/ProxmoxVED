@@ -1,0 +1,71 @@
+{
+  "aggregate": {
+    "total_articles": 5,
+    "bullish": 2,
+    "bearish": 2,
+    "neutral": 1,
+    "bullish_pct": 40.0,
+    "bearish_pct": 40.0,
+    "neutral_pct": 20.0,
+    "weighted_sentiment_score": 1.9999999999999998,
+    "timestamp": "2026-01-25T16:53:04.936618"
+  },
+  "articles": [
+    {
+      "source": "seeking_alpha",
+      "title": "BofA\u00e2\u0080\u0099s Subramanian warns crowded market leaves little margin for error",
+      "url": "https://seekingalpha.com/news/4542281-bofa-s-subramanian-warns-crowded-market-leaves-little-margin-for-error#source=url_first_level%3Amarket-news%7Csection%3Amarket-news%7Csection_asset%3Anews_title",
+      "summary": "BofA\u00e2\u0080\u0099s Subramanian warns crowded market leaves little margin for error",
+      "timestamp": "2026-01-25T16:52:50.719579",
+      "scraped_at": "2026-01-25T16:52:50.719596",
+      "sentiment": "BEARISH",
+      "sentiment_confidence": 0.92,
+      "sentiment_reasoning": "The headline highlights a warning about a 'crowded market' with 'little margin for error,' indicating potential instability and risk of downturns. This suggests a negative outlook for market conditions, signaling bearish sentiment."
+    },
+    {
+      "source": "seeking_alpha",
+      "title": "How Americans are using AI - Gallup",
+      "url": "https://seekingalpha.com/news/4542279-how-americans-are-using-ai-gallup#source=url_first_level%3Amarket-news%7Csection%3Amarket-news%7Csection_asset%3Anews_title",
+      "summary": "How Americans are using AI - Gallup",
+      "timestamp": "2026-01-25T16:52:50.719762",
+      "scraped_at": "2026-01-25T16:52:50.719765",
+      "sentiment": "NEUTRAL",
+      "sentiment_confidence": 0.92,
+      "sentiment_reasoning": "The headline reports on consumer behavior regarding AI usage and does not indicate any direct positive or negative sentiment toward stock market performance. It lacks financial implications or market-moving cues."
+    },
+    {
+      "source": "seeking_alpha",
+      "title": "Saudi property shares jump as foreign ownership rules take effect",
+      "url": "https://seekingalpha.com/news/4542280-saudi-property-shares-jump-as-foreign-ownership-rules-take-effect#source=url_first_level%3Amarket-news%7Csection%3Amarket-news%7Csection_asset%3Anews_title",
+      "summary": "Saudi property shares jump as foreign ownership rules take effect",
+      "timestamp": "2026-01-25T16:52:50.719897",
+      "scraped_at": "2026-01-25T16:52:50.719898",
+      "sentiment": "BULLISH",
+      "sentiment_confidence": 0.95,
+      "sentiment_reasoning": "The headline states that Saudi property shares are 'jumping' following the implementation of foreign ownership rules, indicating positive market reaction. Increased foreign participation typically boosts investor interest and stock prices, signaling strong positive sentiment."
+    },
+    {
+      "source": "seeking_alpha",
+      "title": "Top quant picks for earnings week: AEM, CLS, VLO among strong buy favorites, ROP & SLG on weak end",
+      "url": "https://seekingalpha.com/news/4542269-top-quant-picks-for-earnings-week-aem-cls-vlo-among-strong-buy-favorites-rop-slg-on-weak-end#source=url_first_level%3Amarket-news%7Csection%3Amarket-news%7Csection_asset%3Anews_title",
+      "summary": "Top quant picks for earnings week: AEM, CLS, VLO among strong buy favorites, ROP & SLG on weak end",
+      "timestamp": "2026-01-25T16:52:50.720025",
+      "scraped_at": "2026-01-25T16:52:50.720027",
+      "sentiment": "BULLISH",
+      "sentiment_confidence": 0.92,
+      "sentiment_reasoning": "The headline highlights that top quant funds are favoring several stocks for a strong buy, indicating positive sentiment toward the performance of those companies during earnings. The explicit identification of strong buy favorites (AEM, CLS, VLO) suggests optimism in the market's direction, particularly for mid-cap and energy sectors. While some stocks (ROP & SLG) are on the weak end, the overall tone centers on positive quant recommendations, driving a net bullish sentiment."
+    },
+    {
+      "source": "seeking_alpha",
+      "title": "Winter storm grounds flights across U.S. travel hubs",
+      "url": "https://seekingalpha.com/news/4542278-winter-storm-grounds-flights-across-u-s-travel-hubs#source=url_first_level%3Amarket-news%7Csection%3Amarket-news%7Csection_asset%3Anews_title",
+      "summary": "Winter storm grounds flights across U.S. travel hubs",
+      "timestamp": "2026-01-25T16:52:50.720153",
+      "scraped_at": "2026-01-25T16:52:50.720155",
+      "sentiment": "BEARISH",
+      "sentiment_confidence": 0.85,
+      "sentiment_reasoning": "The repeated mention of a winter storm grounding flights across major U.S. travel hubs indicates disruption to travel and logistics, which can negatively impact airlines and travel-related sectors. Such disruptions typically lead to reduced revenue and operational challenges, signaling negative market sentiment for affected industries and potentially spilling over to broader market performance."
+    }
+  ],
+  "saved_at": "2026-01-25T16:53:04.936721"
+}

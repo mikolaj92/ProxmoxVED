@@ -1,0 +1,71 @@
+{
+  "aggregate": {
+    "total_articles": 5,
+    "bullish": 3,
+    "bearish": 0,
+    "neutral": 2,
+    "bullish_pct": 60.0,
+    "bearish_pct": 0.0,
+    "neutral_pct": 40.0,
+    "weighted_sentiment_score": 52.400000000000006,
+    "timestamp": "2026-01-25T16:58:26.247494"
+  },
+  "articles": [
+    {
+      "source": "Yahoo Finance Gold",
+      "title": "Scotiabank Sees Long-Term Tailwinds Supporting Brookfield Infrastructure Partners L.P. (BIP)",
+      "url": "https://finance.yahoo.com/news/scotiabank-sees-long-term-tailwinds-145552537.html",
+      "summary": "",
+      "published": "2026-01-25T14:55:52",
+      "scraped_at": "2026-01-25T16:58:13.178308",
+      "sentiment": "BULLISH",
+      "sentiment_confidence": 0.92,
+      "sentiment_reasoning": "The headline indicates Scotiabank expects long-term positive growth (tailwinds) for Brookfield Infrastructure Partners, implying strong future performance and market confidence in the stock's outlook."
+    },
+    {
+      "source": "Yahoo Finance Gold",
+      "title": "TD Cowen Maintains a Constructive View on U.S. Bancorp (USB)",
+      "url": "https://finance.yahoo.com/news/td-cowen-maintains-constructive-view-143632930.html",
+      "summary": "",
+      "published": "2026-01-25T14:36:32",
+      "scraped_at": "2026-01-25T16:58:13.178322",
+      "sentiment": "BULLISH",
+      "sentiment_confidence": 0.85,
+      "sentiment_reasoning": "TD Cowen maintaining a constructive view on U.S. Bancorp indicates positive sentiment toward the stock, suggesting potential upside for USB and likely a supportive tone for the broader market context."
+    },
+    {
+      "source": "Yahoo Finance Gold",
+      "title": "Market on high alert for yen intervention after Takaichi warning",
+      "url": "https://finance.yahoo.com/news/market-high-alert-yen-intervention-110000711.html",
+      "summary": "",
+      "published": "2026-01-25T11:00:00",
+      "scraped_at": "2026-01-25T16:58:13.178333",
+      "sentiment": "NEUTRAL",
+      "sentiment_confidence": 0.7,
+      "sentiment_reasoning": "The headline indicates concern about potential yen intervention, which could impact currency markets and trade flows, but does not directly express a clear positive or negative view on stock market performance. The tone is alert and cautionary, suggesting uncertainty rather than a directional bias."
+    },
+    {
+      "source": "Yahoo Finance Gold",
+      "title": "Baird Calls UnitedHealth Group Incorporated (UNH)\u2019s ACA Rebate a Strategic Move With Broader Industry Implications",
+      "url": "https://finance.yahoo.com/news/baird-calls-unitedhealth-group-incorporated-140708889.html",
+      "summary": "",
+      "published": "2026-01-25T14:07:08",
+      "scraped_at": "2026-01-25T16:58:13.178346",
+      "sentiment": "NEUTRAL",
+      "sentiment_confidence": 0.7,
+      "sentiment_reasoning": "The headline describes a strategic move by UnitedHealth Group and notes broader industry implications, but does not explicitly express a positive or negative view on stock performance. It is analytical and factual, focusing on policy and strategy rather than market direction."
+    },
+    {
+      "source": "Yahoo Finance Gold",
+      "title": "The Home Depot, Inc. (HD) Remains a Key Pick as TD Cowen Updates Hardlines Outlook",
+      "url": "https://finance.yahoo.com/news/home-depot-inc-hd-remains-140434836.html",
+      "summary": "",
+      "published": "2026-01-25T14:04:34",
+      "scraped_at": "2026-01-25T16:58:13.178358",
+      "sentiment": "BULLISH",
+      "sentiment_confidence": 0.85,
+      "sentiment_reasoning": "The headline highlights Home Depot as a 'key pick' and mentions a positive outlook update from TD Cowen, indicating strong confidence in the stock's performance. This suggests a favorable market sentiment toward the stock and by extension, the broader retail/sector outlook."
+    }
+  ],
+  "saved_at": "2026-01-25T16:58:26.247623"
+}

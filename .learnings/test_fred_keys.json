@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-01-26T14:28:02.274039",
+  "note": "DEMO KEYS ONLY - NOT VALID FOR PRODUCTION",
+  "keys": [
+    {
+      "id": 1,
+      "key": "4gee2qt93sjiioi4xiogslkg51zf6myw",
+      "formatted": "4gee2qt93sjiioi4xiogslkg51zf6myw",
+      "generated_at": "2026-01-26T14:28:01.245081"
+    },
+    {
+      "id": 2,
+      "key": "v4ggrc67kququ9te4w28ie0dyqyw8ca0",
+      "formatted": "v4ggrc67kququ9te4w28ie0dyqyw8ca0",
+      "generated_at": "2026-01-26T14:28:01.245307"
+    },
+    {
+      "id": 3,
+      "key": "qimdkhqvsc0zgde3okpxb9ex9tslea7f",
+      "formatted": "qimdkhqvsc0zgde3okpxb9ex9tslea7f",
+      "generated_at": "2026-01-26T14:28:01.245505"
+    },
+    {
+      "id": 4,
+      "key": "50xej7mhxfhvc911aufov5aggio3thvj",
+      "formatted": "50xej7mhxfhvc911aufov5aggio3thvj",
+      "generated_at": "2026-01-26T14:28:01.245684"
+    },
+    {
+      "id": 5,
+      "key": "24anlbhjqtinw3jaosfh61xqfv0t43y7",
+      "formatted": "24anlbhjqtinw3jaosfh61xqfv0t43y7",
+      "generated_at": "2026-01-26T14:28:01.245854"
+    }
+  ],
+  "tested_key": "4gee2qt93sjiioi4xiogslkg51zf6myw",
+  "test_result": {
+    "works": false,
+    "status_code": 400,
+    "error": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<error code=\"400\" message=\"Bad Request.  The value for variable api_key is not registered.  Read https://fred.stlouisfed.org/docs/api/api_key.html for more info"
+  }
+}

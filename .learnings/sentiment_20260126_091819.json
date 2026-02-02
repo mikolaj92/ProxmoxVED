@@ -1,0 +1,148 @@
+{
+  "aggregate": {
+    "total_articles": 12,
+    "bullish": 9,
+    "bearish": 0,
+    "neutral": 3,
+    "bullish_pct": 75.0,
+    "bearish_pct": 0.0,
+    "neutral_pct": 25.0,
+    "weighted_sentiment_score": 68.0,
+    "timestamp": "2026-01-26T09:18:19.229228"
+  },
+  "articles": [
+    {
+      "source": "Yahoo Finance Gold",
+      "title": "Big Tech earnings, Fed meeting feature as markets end January with busiest week of Q1: What to watch",
+      "url": "https://finance.yahoo.com/news/big-tech-earnings-fed-meeting-feature-as-markets-end-january-with-busiest-week-of-q1-what-to-watch-125211822.html",
+      "summary": "",
+      "published": "2026-01-25T12:52:11",
+      "scraped_at": "2026-01-25T20:52:48.011284",
+      "sentiment": "NEUTRAL",
+      "sentiment_confidence": 0.85,
+      "sentiment_reasoning": "The headline describes upcoming events (Big Tech earnings, Fed meeting) without expressing a positive or negative bias. It focuses on market activity and what to watch, indicating a balanced, informational tone rather than a directional market view."
+    },
+    {
+      "source": "Yahoo Finance Gold",
+      "title": "Scotiabank Sees Long-Term Tailwinds Supporting Brookfield Infrastructure Partners L.P. (BIP)",
+      "url": "https://finance.yahoo.com/news/scotiabank-sees-long-term-tailwinds-145552537.html",
+      "summary": "",
+      "published": "2026-01-25T14:55:52",
+      "scraped_at": "2026-01-25T20:52:48.011336",
+      "sentiment": "BULLISH",
+      "sentiment_confidence": 0.92,
+      "sentiment_reasoning": "The headline indicates Scotiabank expects long-term positive growth (tailwinds) for Brookfield Infrastructure Partners, implying strong future performance and market confidence in the stock's outlook."
+    },
+    {
+      "source": "Yahoo Finance Gold",
+      "title": "TD Cowen Maintains a Constructive View on U.S. Bancorp (USB)",
+      "url": "https://finance.yahoo.com/news/td-cowen-maintains-constructive-view-143632930.html",
+      "summary": "",
+      "published": "2026-01-25T14:36:32",
+      "scraped_at": "2026-01-25T20:52:48.011350",
+      "sentiment": "BULLISH",
+      "sentiment_confidence": 0.85,
+      "sentiment_reasoning": "TD Cowen maintaining a constructive view on U.S. Bancorp indicates positive sentiment toward the stock, suggesting potential upside for USB and implying a generally favorable outlook for the banking sector, which can influence broader market sentiment."
+    },
+    {
+      "source": "Yahoo Finance Gold",
+      "title": "2 Top AI Stocks to Buy in 2026",
+      "url": "https://finance.yahoo.com/news/2-top-ai-stocks-buy-192000596.html",
+      "summary": "",
+      "published": "2026-01-25T19:20:00",
+      "scraped_at": "2026-01-25T20:52:48.011365",
+      "sentiment": "BULLISH",
+      "sentiment_confidence": 0.95,
+      "sentiment_reasoning": "The headline suggests optimism and a recommendation to buy top AI stocks, indicating positive market sentiment toward AI-related investments and future growth potential."
+    },
+    {
+      "source": "Yahoo Finance Gold",
+      "title": "Big Tech earnings, Fed meeting feature as markets end January with busiest week of Q1: What to watch",
+      "url": "https://finance.yahoo.com/news/big-tech-earnings-fed-meeting-feature-as-markets-end-january-with-busiest-week-of-q1-what-to-watch-125211822.html",
+      "summary": "",
+      "published": "2026-01-25T12:52:11",
+      "scraped_at": "2026-01-25T20:52:48.011284",
+      "sentiment": "NEUTRAL",
+      "sentiment_confidence": 0.85,
+      "sentiment_reasoning": "The headline describes upcoming events (Big Tech earnings, Fed meeting) without expressing a positive or negative bias. It focuses on market activity and what to watch, indicating a balanced, informational tone rather than a directional market view."
+    },
+    {
+      "source": "Yahoo Finance Gold",
+      "title": "Scotiabank Sees Long-Term Tailwinds Supporting Brookfield Infrastructure Partners L.P. (BIP)",
+      "url": "https://finance.yahoo.com/news/scotiabank-sees-long-term-tailwinds-145552537.html",
+      "summary": "",
+      "published": "2026-01-25T14:55:52",
+      "scraped_at": "2026-01-25T20:52:48.011336",
+      "sentiment": "BULLISH",
+      "sentiment_confidence": 0.92,
+      "sentiment_reasoning": "The headline indicates Scotiabank expects long-term positive growth (tailwinds) for Brookfield Infrastructure Partners, implying strong future performance and market confidence in the stock's outlook."
+    },
+    {
+      "source": "Yahoo Finance Gold",
+      "title": "TD Cowen Maintains a Constructive View on U.S. Bancorp (USB)",
+      "url": "https://finance.yahoo.com/news/td-cowen-maintains-constructive-view-143632930.html",
+      "summary": "",
+      "published": "2026-01-25T14:36:32",
+      "scraped_at": "2026-01-25T20:52:48.011350",
+      "sentiment": "BULLISH",
+      "sentiment_confidence": 0.85,
+      "sentiment_reasoning": "TD Cowen maintaining a constructive view on U.S. Bancorp indicates positive sentiment toward the stock, suggesting potential upside for USB and implying a generally favorable market outlook."
+    },
+    {
+      "source": "Yahoo Finance Gold",
+      "title": "2 Top AI Stocks to Buy in 2026",
+      "url": "https://finance.yahoo.com/news/2-top-ai-stocks-buy-192000596.html",
+      "summary": "",
+      "published": "2026-01-25T19:20:00",
+      "scraped_at": "2026-01-25T20:52:48.011365",
+      "sentiment": "BULLISH",
+      "sentiment_confidence": 0.95,
+      "sentiment_reasoning": "The headline suggests optimism and a recommendation to buy AI stocks, indicating positive sentiment toward the sector and future market performance."
+    },
+    {
+      "source": "Yahoo Finance Gold",
+      "title": "Big Tech earnings, Fed meeting feature as markets end January with busiest week of Q1: What to watch",
+      "url": "https://finance.yahoo.com/news/big-tech-earnings-fed-meeting-feature-as-markets-end-january-with-busiest-week-of-q1-what-to-watch-125211822.html",
+      "summary": "",
+      "published": "2026-01-25T12:52:11",
+      "scraped_at": "2026-01-25T20:52:48.011284",
+      "sentiment": "NEUTRAL",
+      "sentiment_confidence": 0.85,
+      "sentiment_reasoning": "The headline describes upcoming events (Big Tech earnings, Fed meeting) without expressing a positive or negative bias. It focuses on market activity and what to watch, indicating a balanced, informational tone rather than a directional market view."
+    },
+    {
+      "source": "Yahoo Finance Gold",
+      "title": "Scotiabank Sees Long-Term Tailwinds Supporting Brookfield Infrastructure Partners L.P. (BIP)",
+      "url": "https://finance.yahoo.com/news/scotiabank-sees-long-term-tailwinds-145552537.html",
+      "summary": "",
+      "published": "2026-01-25T14:55:52",
+      "scraped_at": "2026-01-25T20:52:48.011336",
+      "sentiment": "BULLISH",
+      "sentiment_confidence": 0.92,
+      "sentiment_reasoning": "The headline indicates Scotiabank expects long-term positive growth (tailwinds) for Brookfield Infrastructure Partners, implying strong future performance and market confidence in the stock's outlook."
+    },
+    {
+      "source": "Yahoo Finance Gold",
+      "title": "TD Cowen Maintains a Constructive View on U.S. Bancorp (USB)",
+      "url": "https://finance.yahoo.com/news/td-cowen-maintains-constructive-view-143632930.html",
+      "summary": "",
+      "published": "2026-01-25T14:36:32",
+      "scraped_at": "2026-01-25T20:52:48.011350",
+      "sentiment": "BULLISH",
+      "sentiment_confidence": 0.85,
+      "sentiment_reasoning": "TD Cowen maintaining a constructive view on U.S. Bancorp indicates positive sentiment toward the stock, suggesting potential upside for USB and a generally positive market outlook."
+    },
+    {
+      "source": "Yahoo Finance Gold",
+      "title": "2 Top AI Stocks to Buy in 2026",
+      "url": "https://finance.yahoo.com/news/2-top-ai-stocks-buy-192000596.html",
+      "summary": "",
+      "published": "2026-01-25T19:20:00",
+      "scraped_at": "2026-01-25T20:52:48.011365",
+      "sentiment": "BULLISH",
+      "sentiment_confidence": 0.95,
+      "sentiment_reasoning": "The headline recommends buying top AI stocks, indicating positive sentiment and investor confidence in AI sector growth, which is a strong signal of bullish market sentiment."
+    }
+  ],
+  "saved_at": "2026-01-26T09:18:19.229329"
+}
