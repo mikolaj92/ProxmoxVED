@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-01-26T12:54:34.800047",
+  "indicators": {
+    "GDP": {
+      "value": 28372.5,
+      "date": "2024-12-01",
+      "interpretation": "Moderate GDP growth (+2.1% YoY): Stable growth"
+    },
+    "CPI": {
+      "value": 314.14,
+      "date": "2024-12-01",
+      "interpretation": "Moderate inflation (2.9% YoY): Healthy range"
+    },
+    "Unemployment": {
+      "value": 4.1,
+      "date": "2024-12-01",
+      "interpretation": "Low unemployment (4.1%): Tight labor market"
+    },
+    "Fed_Funds_Rate": {
+      "value": 4.33,
+      "date": "2024-12-01",
+      "interpretation": "Neutral rates (4.33%): Normal monetary stance"
+    },
+    "PMI_Manufacturing": {
+      "value": 48.5,
+      "date": "2024-12-01",
+      "interpretation": "PMI 48.5: Contraction (bearish)"
+    },
+    "PMI_Services": {
+      "value": 52.3,
+      "date": "2024-12-01",
+      "interpretation": "PMI 52.3: Expansion (bullish)"
+    }
+  },
+  "health_score": {
+    "score": 8.3,
+    "interpretation": "SLOW EXPANSION - Growth but below potential"
+  }
+}

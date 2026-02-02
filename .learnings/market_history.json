@@ -1,0 +1,147 @@
+[
+  {
+    "timestamp": "2026-01-26T16:55:13.149949",
+    "type": "daily_import",
+    "data": {
+      "source": "2026-01-26T12:55:02.314379",
+      "sectors": [
+        "GOLD",
+        "TECH"
+      ],
+      "sentiment": {
+        "total_articles": 12,
+        "bullish": 9,
+        "bearish": 0,
+        "neutral": 3,
+        "bullish_pct": 75.0,
+        "bearish_pct": 0.0,
+        "neutral_pct": 25.0,
+        "weighted_sentiment_score": 68.0,
+        "timestamp": "2026-01-26T12:55:02.278588"
+      },
+      "macro": {
+        "timestamp": "2026-01-26T12:54:34.800047",
+        "indicators": {
+          "GDP": {
+            "value": 28372.5,
+            "date": "2024-12-01",
+            "interpretation": "Moderate GDP growth (+2.1% YoY): Stable growth"
+          },
+          "CPI": {
+            "value": 314.14,
+            "date": "2024-12-01",
+            "interpretation": "Moderate inflation (2.9% YoY): Healthy range"
+          },
+          "Unemployment": {
+            "value": 4.1,
+            "date": "2024-12-01",
+            "interpretation": "Low unemployment (4.1%): Tight labor market"
+          },
+          "Fed_Funds_Rate": {
+            "value": 4.33,
+            "date": "2024-12-01",
+            "interpretation": "Neutral rates (4.33%): Normal monetary stance"
+          },
+          "PMI_Manufacturing": {
+            "value": 48.5,
+            "date": "2024-12-01",
+            "interpretation": "PMI 48.5: Contraction (bearish)"
+          },
+          "PMI_Services": {
+            "value": 52.3,
+            "date": "2024-12-01",
+            "interpretation": "PMI 52.3: Expansion (bullish)"
+          }
+        },
+        "health_score": {
+          "score": 8.3,
+          "interpretation": "SLOW EXPANSION - Growth but below potential"
+        }
+      },
+      "cycle": {
+        "phase": "LATE EXPANSION / PEAK",
+        "strategy": "REDUCE RISK - Trim positions, increase cash",
+        "risk": "HIGH (Euphoria)",
+        "combined_score": 44.12
+      },
+      "sector_recommendations": {
+        "GOLD": "Reduce - Safe haven not needed",
+        "TECH": "Reduce - Valuations stretched, lock in profits"
+      },
+      "notes": "Imported from daily report - initial data point for prediction system"
+    },
+    "processed": false
+  },
+  {
+    "timestamp": "2026-01-26T16:59:21.330808",
+    "type": "daily_report",
+    "source": "2026-01-26T12:55:02.314379",
+    "data": {
+      "timestamp": "2026-01-26T12:55:02.314379",
+      "sectors": [
+        "GOLD",
+        "TECH"
+      ],
+      "sentiment": {
+        "total_articles": 12,
+        "bullish": 9,
+        "bearish": 0,
+        "neutral": 3,
+        "bullish_pct": 75.0,
+        "bearish_pct": 0.0,
+        "neutral_pct": 25.0,
+        "weighted_sentiment_score": 68.0,
+        "timestamp": "2026-01-26T12:55:02.278588"
+      },
+      "macro": {
+        "timestamp": "2026-01-26T12:54:34.800047",
+        "indicators": {
+          "GDP": {
+            "value": 28372.5,
+            "date": "2024-12-01",
+            "interpretation": "Moderate GDP growth (+2.1% YoY): Stable growth"
+          },
+          "CPI": {
+            "value": 314.14,
+            "date": "2024-12-01",
+            "interpretation": "Moderate inflation (2.9% YoY): Healthy range"
+          },
+          "Unemployment": {
+            "value": 4.1,
+            "date": "2024-12-01",
+            "interpretation": "Low unemployment (4.1%): Tight labor market"
+          },
+          "Fed_Funds_Rate": {
+            "value": 4.33,
+            "date": "2024-12-01",
+            "interpretation": "Neutral rates (4.33%): Normal monetary stance"
+          },
+          "PMI_Manufacturing": {
+            "value": 48.5,
+            "date": "2024-12-01",
+            "interpretation": "PMI 48.5: Contraction (bearish)"
+          },
+          "PMI_Services": {
+            "value": 52.3,
+            "date": "2024-12-01",
+            "interpretation": "PMI 52.3: Expansion (bullish)"
+          }
+        },
+        "health_score": {
+          "score": 8.3,
+          "interpretation": "SLOW EXPANSION - Growth but below potential"
+        }
+      },
+      "cycle": {
+        "phase": "LATE EXPANSION / PEAK",
+        "strategy": "REDUCE RISK - Trim positions, increase cash",
+        "risk": "HIGH (Euphoria)",
+        "combined_score": 44.12
+      },
+      "sectors_recommendations": {
+        "GOLD": "Reduce - Safe haven not needed",
+        "TECH": "Reduce - Valuations stretched, lock in profits"
+      }
+    }
+  }
+]

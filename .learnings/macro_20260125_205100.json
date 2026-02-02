@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-01-25T20:51:00.000000",
+  "indicators": {
+    "GDP": {
+      "series_id": "GDP",
+      "name": "Gross Domestic Product",
+      "value": 28372.5,
+      "date": "2024-12-01",
+      "units": "Billions of Dollars",
+      "interpretation": "Moderate GDP growth (+2.1% YoY): Stable growth"
+    },
+    "CPI": {
+      "series_id": "CPIAUCSL",
+      "name": "Consumer Price Index (All Items)",
+      "value": 314.14,
+      "date": "2024-12-01",
+      "units": "Index 1982-1984=100",
+      "interpretation": "Moderate inflation (2.9% YoY): Healthy range"
+    },
+    "Unemployment": {
+      "series_id": "UNRATE",
+      "name": "Unemployment Rate",
+      "value": 4.1,
+      "date": "2024-12-01",
+      "units": "Percent",
+      "interpretation": "Low unemployment (4.1%): Tight labor market (inflation risk)"
+    },
+    "Fed_Funds_Rate": {
+      "series_id": "FEDFUNDS",
+      "name": "Federal Funds Rate",
+      "value": 4.33,
+      "date": "2024-12-01",
+      "units": "Percent",
+      "interpretation": "Neutral rates (4.33%): Normal monetary stance"
+    },
+    "PMI_Manufacturing": {
+      "series_id": "NAPM",
+      "name": "PMI Manufacturing",
+      "value": 48.5,
+      "date": "2024-12-01",
+      "units": "Index",
+      "interpretation": "PMI 48.5: Contraction (bearish)"
+    },
+    "PMI_Services": {
+      "series_id": "NAPMPI",
+      "name": "PMI Services",
+      "value": 52.3,
+      "date": "2024-12-01",
+      "units": "Index",
+      "interpretation": "PMI 52.3: Expansion (bullish)"
+    }
+  },
+  "health_score": {
+    "score": 8.3,
+    "interpretation": "SLOW EXPANSION - Growth but below potential",
+    "factors": [
+      "PMI Manufacturing: PMI 48.5: Contraction (bearish)",
+      "PMI Services: PMI 52.3: Expansion (bullish)",
+      "Unemployment: Low unemployment (4.1%): Tight labor market (inflation risk)",
+      "Fed Rate: Neutral rates (4.33%): Normal monetary stance"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "skills": {
+    "self-improving-agent": {
+      "version": "1.0.1",
+      "installedAt": 1769349926689
+    },
+    "tavily-search": {
+      "version": "1.0.0",
+      "installedAt": 1769350392409
+    },
+    "brave-search": {
+      "version": "1.0.1",
+      "installedAt": 1769350420168
+    },
+    "proactive-agent": {
+      "version": "2.0.0",
+      "installedAt": 1769766447575
+    },
+    "find-skills": {
+      "version": "0.1.0",
+      "installedAt": 1769766649180
+    }
+  }
+}

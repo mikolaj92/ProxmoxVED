@@ -1,0 +1,142 @@
+{
+  "timestamp": "2026-01-25T20:53:01.071612",
+  "sectors": [
+    "GOLD",
+    "TECH"
+  ],
+  "sentiment": {
+    "aggregate": {
+      "total_articles": 4,
+      "bullish": 3,
+      "bearish": 0,
+      "neutral": 1,
+      "bullish_pct": 75.0,
+      "bearish_pct": 0.0,
+      "neutral_pct": 25.0,
+      "weighted_sentiment_score": 68.0,
+      "timestamp": "2026-01-25T20:53:01.032167"
+    },
+    "articles": [
+      {
+        "source": "Yahoo Finance Gold",
+        "title": "Big Tech earnings, Fed meeting feature as markets end January with busiest week of Q1: What to watch",
+        "url": "https://finance.yahoo.com/news/big-tech-earnings-fed-meeting-feature-as-markets-end-january-with-busiest-week-of-q1-what-to-watch-125211822.html",
+        "summary": "",
+        "published": "2026-01-25T12:52:11",
+        "scraped_at": "2026-01-25T20:52:48.011284",
+        "sentiment": "NEUTRAL",
+        "sentiment_confidence": 0.85,
+        "sentiment_reasoning": "The headline describes upcoming events (Big Tech earnings, Fed meeting) without expressing a positive or negative bias. It focuses on market activity and what to watch, indicating a balanced, informational tone rather than a directional market sentiment."
+      },
+      {
+        "source": "Yahoo Finance Gold",
+        "title": "Scotiabank Sees Long-Term Tailwinds Supporting Brookfield Infrastructure Partners L.P. (BIP)",
+        "url": "https://finance.yahoo.com/news/scotiabank-sees-long-term-tailwinds-145552537.html",
+        "summary": "",
+        "published": "2026-01-25T14:55:52",
+        "scraped_at": "2026-01-25T20:52:48.011336",
+        "sentiment": "BULLISH",
+        "sentiment_confidence": 0.92,
+        "sentiment_reasoning": "The headline indicates Scotiabank expects long-term positive growth (tailwinds) for Brookfield Infrastructure Partners, implying strong future performance and market confidence in the company's outlook, which is a clear positive signal for the stock market."
+      },
+      {
+        "source": "Yahoo Finance Gold",
+        "title": "TD Cowen Maintains a Constructive View on U.S. Bancorp (USB)",
+        "url": "https://finance.yahoo.com/news/td-cowen-maintains-constructive-view-143632930.html",
+        "summary": "",
+        "published": "2026-01-25T14:36:32",
+        "scraped_at": "2026-01-25T20:52:48.011350",
+        "sentiment": "BULLISH",
+        "sentiment_confidence": 0.85,
+        "sentiment_reasoning": "TD Cowen maintaining a constructive view on U.S. Bancorp indicates positive sentiment toward the stock, suggesting potential upside for USB and implying a generally favorable market outlook."
+      },
+      {
+        "source": "Yahoo Finance Gold",
+        "title": "2 Top AI Stocks to Buy in 2026",
+        "url": "https://finance.yahoo.com/news/2-top-ai-stocks-buy-192000596.html",
+        "summary": "",
+        "published": "2026-01-25T19:20:00",
+        "scraped_at": "2026-01-25T20:52:48.011365",
+        "sentiment": "BULLISH",
+        "sentiment_confidence": 0.95,
+        "sentiment_reasoning": "The headline suggests optimism and a recommendation to buy AI stocks, indicating positive market sentiment toward the sector and future performance."
+      }
+    ],
+    "saved_at": "2026-01-25T20:53:01.032283"
+  },
+  "macro": {
+    "timestamp": "2026-01-25T20:51:00.000000",
+    "indicators": {
+      "GDP": {
+        "series_id": "GDP",
+        "name": "Gross Domestic Product",
+        "value": 28372.5,
+        "date": "2024-12-01",
+        "units": "Billions of Dollars",
+        "interpretation": "Moderate GDP growth (+2.1% YoY): Stable growth"
+      },
+      "CPI": {
+        "series_id": "CPIAUCSL",
+        "name": "Consumer Price Index (All Items)",
+        "value": 314.14,
+        "date": "2024-12-01",
+        "units": "Index 1982-1984=100",
+        "interpretation": "Moderate inflation (2.9% YoY): Healthy range"
+      },
+      "Unemployment": {
+        "series_id": "UNRATE",
+        "name": "Unemployment Rate",
+        "value": 4.1,
+        "date": "2024-12-01",
+        "units": "Percent",
+        "interpretation": "Low unemployment (4.1%): Tight labor market (inflation risk)"
+      },
+      "Fed_Funds_Rate": {
+        "series_id": "FEDFUNDS",
+        "name": "Federal Funds Rate",
+        "value": 4.33,
+        "date": "2024-12-01",
+        "units": "Percent",
+        "interpretation": "Neutral rates (4.33%): Normal monetary stance"
+      },
+      "PMI_Manufacturing": {
+        "series_id": "NAPM",
+        "name": "PMI Manufacturing",
+        "value": 48.5,
+        "date": "2024-12-01",
+        "units": "Index",
+        "interpretation": "PMI 48.5: Contraction (bearish)"
+      },
+      "PMI_Services": {
+        "series_id": "NAPMPI",
+        "name": "PMI Services",
+        "value": 52.3,
+        "date": "2024-12-01",
+        "units": "Index",
+        "interpretation": "PMI 52.3: Expansion (bullish)"
+      }
+    },
+    "health_score": {
+      "score": 8.3,
+      "interpretation": "SLOW EXPANSION - Growth but below potential",
+      "factors": [
+        "PMI Manufacturing: PMI 48.5: Contraction (bearish)",
+        "PMI Services: PMI 52.3: Expansion (bullish)",
+        "Unemployment: Low unemployment (4.1%): Tight labor market (inflation risk)",
+        "Fed Rate: Neutral rates (4.33%): Normal monetary stance"
+      ]
+    }
+  },
+  "archetype": {
+    "archetype": "LATE EXPANSION / PEAK",
+    "strategy": "REDUCE RISK - Trim positions, increase cash, defensive sectors",
+    "risk_level": "HIGH (Euphoria)",
+    "combined_score": 44.12,
+    "sentiment_score": 68.0,
+    "macro_score": 8.3
+  },
+  "sector_recommendations": {
+    "GOLD": "Reduce - Safe haven not needed, rotate to defensives",
+    "TECH": "Reduce - Valuations stretched, lock in profits"
+  }
+}

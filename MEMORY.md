@@ -64,10 +64,33 @@ Uruchomienie usług self-hosted w LXC kontenerach z danymi na oddzielnych volume
 - **Transmission:** User `transmission`, Pass `Test123`
 
 ### ToDo (Future)
+- [x] ~~Rudy MSDS V2~~ - anulowane (V1 działa świetnie: 100% recall, V2 wymagał >11GB VRAM)
 - [ ] Paperless-ngx (CT260) - zniszczony, do odtworzenia
 - [ ] Nextcloud (CT270) - nigdy nie stworzony
 - [ ] Setup backup automatyczny (vzdump schedule)
 - [ ] Monitoring przestrzeni dyskowej na NAS
+
+---
+
+## Rudy MSDS - Status Finalny
+
+### V1: ✅ Działa świetnie
+- **Recall:** 100% na testach (PDF 146: 2/2, PDF 24: 5/3 + 2 bonus)
+- **Method:** Docling → Markdown → LLM extraction
+- **Performance:** 25-30s per PDF
+- **Workspace:** `workspaces/pipeline` (main)
+
+### V2: ❌ Anulowane
+- **Problem:** MLX-VLM wymagał >11GB VRAM (max dostępne: 8.9GB)
+- **Usunięte:** 2026-02-02
+  - `workspaces/pipeline-v2`
+  - `workspaces/paddleocr-extractor`
+  - HuggingFace cache: ~7.4GB MLX-VLM models
+- **Powód:** V1 działa idealnie, V2 był overkill i niezgodny z ograniczeniami sprzętowymi
+
+### Files zachowane:
+- `V1_IMPROVEMENT_PLAN.md`
+- `V2_IMPROVEMENT_PLAN.md` (dla dokumentacji co było planowane)
 
 ---
 
@@ -101,5 +124,5 @@ Uruchomienie usług self-hosted w LXC kontenerach z danymi na oddzielnych volume
 
 ---
 
-**Data utworzenia:** 2026-02-02  
-**Ostatnia aktualizacja:** 2026-02-02
+**Data utworzenia:** 2026-02-02
+**Ostatnia aktualizacja:** 2026-02-02 (V2 anulowane, powrót do V1)

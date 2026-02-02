@@ -1,0 +1,232 @@
+{
+  "last_updated": "2026-01-26T18:06:19.807043",
+  "total_regions": 8,
+  "data": {
+    "last_updated": "2026-01-26T17:59:24.411831",
+    "total_regions": 5,
+    "data": {
+      "usa": {
+        "country": "",
+        "indicators": {
+          "gdp_growth": {
+            "value": 2.3,
+            "timestamp": "2026-01-26T17:59:24.411048"
+          },
+          "interest_rate": {
+            "value": 4.33,
+            "timestamp": "2026-01-26T17:59:24.411048"
+          },
+          "inflation": {
+            "value": 2.9,
+            "timestamp": "2026-01-26T17:59:24.411048"
+          },
+          "unemployment": {
+            "value": 4.1,
+            "timestamp": "2026-01-26T17:59:24.411048"
+          }
+        },
+        "last_updated": "2026-01-26T17:59:24.411048"
+      },
+      "japan": {
+        "country": "",
+        "indicators": {
+          "gdp_growth": {
+            "value": 1.0,
+            "timestamp": "2026-01-26T17:59:24.411350"
+          },
+          "interest_rate": {
+            "value": 0.25,
+            "timestamp": "2026-01-26T17:59:24.411350"
+          },
+          "inflation": {
+            "value": 2.5,
+            "timestamp": "2026-01-26T17:59:24.411350"
+          },
+          "unemployment": {
+            "value": 2.4,
+            "timestamp": "2026-01-26T17:59:24.411350"
+          }
+        },
+        "last_updated": "2026-01-26T17:59:24.411350"
+      },
+      "china": {
+        "country": "",
+        "indicators": {
+          "gdp_growth": {
+            "value": 5.2,
+            "timestamp": "2026-01-26T17:59:24.411534"
+          },
+          "interest_rate": {
+            "value": 4.35,
+            "timestamp": "2026-01-26T17:59:24.411534"
+          },
+          "inflation": {
+            "value": 2.8,
+            "timestamp": "2026-01-26T17:59:24.411534"
+          },
+          "unemployment": {
+            "value": 5.1,
+            "timestamp": "2026-01-26T17:59:24.411534"
+          }
+        },
+        "last_updated": "2026-01-26T17:59:24.411534"
+      },
+      "europe": {
+        "country": "",
+        "indicators": {
+          "gdp_growth": {
+            "value": 1.1,
+            "timestamp": "2026-01-26T17:59:24.411677"
+          },
+          "interest_rate": {
+            "value": 4.0,
+            "timestamp": "2026-01-26T17:59:24.411677"
+          },
+          "inflation": {
+            "value": 2.7,
+            "timestamp": "2026-01-26T17:59:24.411677"
+          },
+          "unemployment": {
+            "value": 6.5,
+            "timestamp": "2026-01-26T17:59:24.411677"
+          }
+        },
+        "last_updated": "2026-01-26T17:59:24.411677"
+      },
+      "iran": {
+        "country": "",
+        "indicators": {
+          "oil_price": {
+            "value": 78.5,
+            "timestamp": "2026-01-26T17:59:24.411829"
+          },
+          "sanctions": {
+            "value": "active",
+            "timestamp": "2026-01-26T17:59:24.411829"
+          }
+        },
+        "last_updated": "2026-01-26T17:59:24.411829"
+      }
+    },
+    "usa": {
+      "country": "",
+      "indicators": {
+        "gdp_growth": {
+          "value": 2.3,
+          "timestamp": "2026-01-26T18:06:19.805289",
+          "source": "Mock Data"
+        },
+        "interest_rate": {
+          "value": 4.33,
+          "timestamp": "2026-01-26T18:06:19.805289",
+          "source": "Mock Data"
+        },
+        "inflation": {
+          "value": 2.9,
+          "timestamp": "2026-01-26T18:06:19.805289",
+          "source": "Mock Data"
+        },
+        "unemployment": {
+          "value": 4.1,
+          "timestamp": "2026-01-26T18:06:19.805289",
+          "source": "Mock Data"
+        }
+      },
+      "last_updated": "2026-01-26T18:06:19.805289"
+    },
+    "japan": {
+      "country": "",
+      "indicators": {
+        "gdp_growth": {
+          "value": 1.0,
+          "timestamp": "2026-01-26T18:06:19.805687",
+          "source": "Mock Data"
+        },
+        "interest_rate": {
+          "value": 0.25,
+          "timestamp": "2026-01-26T18:06:19.805687",
+          "source": "Mock Data"
+        },
+        "inflation": {
+          "value": 2.5,
+          "timestamp": "2026-01-26T18:06:19.805687",
+          "source": "Mock Data"
+        },
+        "unemployment": {
+          "value": 2.4,
+          "timestamp": "2026-01-26T18:06:19.805687",
+          "source": "Mock Data"
+        }
+      },
+      "last_updated": "2026-01-26T18:06:19.805687"
+    },
+    "china": {
+      "country": "",
+      "indicators": {
+        "gdp_growth": {
+          "value": 5.2,
+          "timestamp": "2026-01-26T18:06:19.806213",
+          "source": "Mock Data"
+        },
+        "interest_rate": {
+          "value": 4.35,
+          "timestamp": "2026-01-26T18:06:19.806213",
+          "source": "Mock Data"
+        },
+        "inflation": {
+          "value": 2.8,
+          "timestamp": "2026-01-26T18:06:19.806213",
+          "source": "Mock Data"
+        },
+        "unemployment": {
+          "value": 5.1,
+          "timestamp": "2026-01-26T18:06:19.806213",
+          "source": "Mock Data"
+        }
+      },
+      "last_updated": "2026-01-26T18:06:19.806213"
+    },
+    "europe": {
+      "country": "",
+      "indicators": {
+        "gdp_growth": {
+          "value": 1.1,
+          "timestamp": "2026-01-26T18:06:19.806614",
+          "source": "Mock Data"
+        },
+        "interest_rate": {
+          "value": 4.0,
+          "timestamp": "2026-01-26T18:06:19.806614",
+          "source": "Mock Data"
+        },
+        "inflation": {
+          "value": 2.7,
+          "timestamp": "2026-01-26T18:06:19.806614",
+          "source": "Mock Data"
+        },
+        "unemployment": {
+          "value": 6.5,
+          "timestamp": "2026-01-26T18:06:19.806614",
+          "source": "Mock Data"
+        }
+      },
+      "last_updated": "2026-01-26T18:06:19.806614"
+    },
+    "iran": {
+      "country": "",
+      "indicators": {
+        "oil_price": {
+          "value": 78.5,
+          "timestamp": "2026-01-26T18:06:19.807039",
+          "source": "Mock Data"
+        },
+        "sanctions": {
+          "value": "active",
+          "timestamp": "2026-01-26T18:06:19.807039",
+          "source": "Mock Data"
+        }
+      },
+      "last_updated": "2026-01-26T18:06:19.807039"
+    }
+  }
+}
