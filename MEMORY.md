@@ -94,7 +94,7 @@ Uruchomienie usług self-hosted w LXC kontenerach z danymi na oddzielnych volume
 
 ---
 
-## Mini-m4-0 ("Lepszy Brat") - 192.168.1.52
+## Bolek (mini-m4-0, "Lepszy Brat") - 192.168.1.52
 
 ### Dostęp
 - **SSH:** `ssh mini-m4-0@192.168.1.52`, password: `domowycluster`
@@ -118,6 +118,7 @@ Uruchomienie usług self-hosted w LXC kontenerach z danymi na oddzielnych volume
 
 ## inne
 
+- **Dev workspace:** wszystkie projekty Patryka są w `~/Developer`
 - **Browser automation** w Proxmox UI ma timeouty (nawet z 60s) - używać SSH
 - **UV** > pip dla Python packages (10-100x szybszy)
 - **Nightly cron** skopiowany z mini-m4-0 do lokalnego systemu
