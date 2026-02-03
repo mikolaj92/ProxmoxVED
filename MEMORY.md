@@ -119,6 +119,7 @@ Uruchomienie usług self-hosted w LXC kontenerach z danymi na oddzielnych volume
 ## inne
 
 - **Dev workspace:** wszystkie projekty Patryka są w `~/Developer`
+- **Workflow:** Patryk używa UI w dashboardzie; agent ma korzystać z API ("UI dla mnie, API dla Ciebie").
 - **Browser automation** w Proxmox UI ma timeouty (nawet z 60s) - używać SSH
 - **UV** > pip dla Python packages (10-100x szybszy)
 - **Nightly cron** skopiowany z mini-m4-0 do lokalnego systemu
