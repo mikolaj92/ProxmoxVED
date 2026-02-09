@@ -1,17 +1,13 @@
 # USER.md - About Your Human
 
-*Learn about the person you're helping. Update this as you go.*
-
-- **Name:** 
-- **What to call them:** 
+- **Name:** Patryk
+- **What to call them:** Patryk
 - **Pronouns:** *(optional)*
-- **Timezone:** 
-- **Notes:** 
+- **Timezone:** Europe/Warsaw
+- **Notes:** Preferuje rozmowę na "ty"; chce relacji w stylu przyjacielskim.
 
 ## Context
 
-*(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)*
+- Buduje self-hosted usługi na Proxmox LXC, dba o migracje/backupy i porządek w danych.
 
 ---
-
-The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.

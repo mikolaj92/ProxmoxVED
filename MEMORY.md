@@ -72,6 +72,66 @@ Uruchomienie usług self-hosted w LXC kontenerach z danymi na oddzielnych volume
 
 ---
 
+## Calibre-Web (CT240) - eBook Management (2026-02-09)
+
+### Cel
+Self-hosted eBook library z Kindle integration (automatyczna wysyłka książek).
+
+### Instancja
+- **CT ID:** 240
+- **IP:** 192.168.11.82:8083
+- **OS:** Debian 13
+- **URL:** http://192.168.11.82:8083/
+
+### Credentials
+- **User:** admin
+- **Password:** Calibre2026!
+- **Library path:** `/opt/calibre-web/library`
+- **Database:** `/opt/calibre-web/app.db`
+
+### Features
+- ✅ Web interface (przeglądanie, czytanie, download)
+- ✅ Calibre integration (konwersja EPUB→AZW3 dla Kindle)
+- ✅ Multiple formats support (EPUB, MOBI, AZW3, PDF)
+- ⏳ Kindle email setup (pending)
+
+### Service
+- **Name:** cps (Calibre-Web Service)
+- **Command:** `/usr/bin/python3 /opt/calibre-web/cps.py`
+- **Systemd:** `/etc/systemd/system/cps.service`
+
+### Community Script PR
+- **URL:** https://github.com/community-scripts/ProxmoxVE/pull/11743
+- **Status:** Zaktualizowany po teście (Flask-Limiter 3.x fix)
+- **Tested:** ✅ Debian 13 LXC
+
+### ToDo (Kindle Integration)
+- [ ] Skonfigurować SMTP do wysyłki na Kindle
+- [ ] Dodać whitelist emaili (kindle@kindle.com)
+- [ ] Przetestować automatyczną konwersję EPUB→AZW3
+- [ ] Zautomatyzować upload książek
+
+---
+
+## Rudy (Rudy MSDS Pipeline) - Dashboard + Worker (2026-02-05)
+
+### Komponenty
+- **Control-plane** (port 3000): Dashboard UI + API dla workerów
+  - Ścieżka: `~/Developer/control-plane`
+  - LaunchAgent: `ai.control-plane.plist`
+- **Rudy worker**: Background worker wykonujący zadania
+  - Ścieżka: `~/Developer/rudy-worker`
+  - LaunchAgent: `ai.rudy-worker.plist`
+  - Env: `CONTROL_PLANE_URL=http://127.0.0.1:3000`, `APP=rudy`, `WORKER_ID=rudy-worker-1`
+
+### Problem i Fix (2026-02-05 20:13)
+- **Problem:** Dashboard pokazywał "No workers available" mimo że worker był uruchomiony.
+- **Przyczyna:** W `worker_api.py` endpoint `/api/workers/lease` nie commitemł zmian `last_seen` gdy worker pytał o lease a nie było zadań (status 404). Worker nie odświeżał `last_seen` w DB, więc po 45s traktowany jako nieaktywny.
+- **Fix:** Dodać `conn.commit()` po `upsert_worker(..., status="idle")` przed early return.
+- **Wynik:** Workery teraz regularnie odświeżają `last_seen`, Dashboard poprawnie wykrywa aktywnych workerów.
+
+---
+
 ## Rudy MSDS - Status Finalny
 
 ### V1: ✅ Działa świetnie

@@ -1,0 +1,37 @@
+[
+  {
+    "docid": "#08f12a",
+    "score": 1,
+    "file": "qmd://workspace/heartbeat.md",
+    "title": "HEARTBEAT.md",
+    "snippet": "@@ -8,3 @@ (7 before, 0 after)\n- qmd update 2>/dev/null || true\n- qmd search \"TODO\" -n 5 --json > memory/qmd_cache.json\n"
+  },
+  {
+    "docid": "#44008a",
+    "score": 1,
+    "file": "qmd://workspace/memory/2026-02-03.md",
+    "title": "2026-02-03",
+    "snippet": "@@ -4,4 @@ (3 before, 2 after)\n\n- TODO (worker): przy resume/requeue/restart domykać \"otwarte\" spany PDF (brak span_end) jako `span_end status=failed` z `error=interrupted` (albo podobnie), żeby nie zostawały wiszące nody. Obecnie dashboard oznacza je jako `stale`, ale lepiej naprawić źródło.\n- Notatka: zdarzył się błąd \"addre..."
+  },
+  {
+    "docid": "#44008a",
+    "score": 1,
+    "file": "qmd://memory-dir/2026-02-03.md",
+    "title": "2026-02-03",
+    "snippet": "@@ -4,4 @@ (3 before, 2 after)\n\n- TODO (worker): przy resume/requeue/restart domykać \"otwarte\" spany PDF (brak span_end) jako `span_end status=failed` z `error=interrupted` (albo podobnie), żeby nie zostawały wiszące nody. Obecnie dashboard oznacza je jako `stale`, ale lepiej naprawić źródło.\n- Notatka: zdarzył się błąd \"addre..."
+  },
+  {
+    "docid": "#35ebd2",
+    "score": 1,
+    "file": "qmd://workspace/memory.md",
+    "title": "MEMORY.md - Kluczowe informacje i projekty",
+    "snippet": "@@ -65,4 @@ (64 before, 82 after)\n\n### ToDo (Future)\n- [x] ~~Rudy MSDS V2~~ - anulowane (V1 działa świetnie: 100% recall, V2 wymagał >11GB VRAM)\n- [ ] Paperless-ngx (CT260) - zniszczony, do odtworzenia"
+  },
+  {
+    "docid": "#35ebd2",
+    "score": 1,
+    "file": "qmd://memory-root/memory.md",
+    "title": "MEMORY.md - Kluczowe informacje i projekty",
+    "snippet": "@@ -65,4 @@ (64 before, 82 after)\n\n### ToDo (Future)\n- [x] ~~Rudy MSDS V2~~ - anulowane (V1 działa świetnie: 100% recall, V2 wymagał >11GB VRAM)\n- [ ] Paperless-ngx (CT260) - zniszczony, do odtworzenia"
+  }
+]

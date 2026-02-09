@@ -52,3 +52,21 @@ uv add package-name  # Dodaje do pyproject.toml
 - NIGDY nie używaj `pip install` bezpośrednio
 - ZAWSZE używaj `uv pip install` lub `uv sync`
 - To dotyczy WSZYSTKICH projektów Pythonowych
+
+---
+
+## Codex CLI
+
+**Flagi:**
+- `--yolo` - **ZAWSZE używaj tej flagi!** NO sandbox, NO approvals (fastest, no read-only restrictions)
+- `--full-auto` - Sandboxed ale auto-approves w workspace
+- `exec "prompt"` - One-shot execution
+
+**Przykład:**
+```bash
+codex --yolo exec "Twoje zadanie"
+```
+
+**WAŻNE:**
+- ZAWSZE używaj `codex --yolo` dla pełnej automatyzacji
+- Bez flagi = domyślny sandboxed mode (read-only, nie może zapisywać plików)

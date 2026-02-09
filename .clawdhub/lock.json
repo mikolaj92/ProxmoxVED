@@ -2,8 +2,8 @@
   "version": 1,
   "skills": {
     "self-improving-agent": {
-      "version": "1.0.1",
-      "installedAt": 1769349926689
+      "version": "1.0.4",
+      "installedAt": 1770087659314
     },
     "tavily-search": {
       "version": "1.0.0",
